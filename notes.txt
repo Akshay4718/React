@@ -1,0 +1,29 @@
+react is used to build complex ui
+
+create a react project
+$npx create-react-app appname
+$cd appname
+$npm run start  // to start the project
+$npm run build //creates the production code in html, css, js
+
+
+
+using vite
+
+$npm create vite@latest
+$cd appname
+$npm i
+$npm run dev
+
+
+virtual dom is like a tree structure and keeps track where all updates take place and instead of upadting entire structure , it only changes the where the updates are made
+
+reconciliation high level algorithm which decide the upodating
+
+the algorithm react uses to differntiate 2 trees (1 is browser dom, 2nd is createRoot tree) and determines which parts are needed to be changed
+
+insted of rerendering , now it shows updates and renders it
+
+fibre provies abstraction and enable react to take advantage scheduling
+
+devui.com for tailwind components
